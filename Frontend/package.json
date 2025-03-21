@@ -8,7 +8,7 @@
     "@mui/icons-material": "^5.10.16",
     "@mui/material": "^5.10.16",
     "@reduxjs/toolkit": "^1.9.5",
-    "@testing-library/jest-dom": "^5.16.5", 
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
@@ -21,7 +21,10 @@
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://aadithyakp.github.io/stuffwadrobe",
   "scripts": {
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
