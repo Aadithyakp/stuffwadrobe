@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Aadithyakp/stuffwadrobe/tree/main/Frontend/static/js/main.795c226c.js",
-    "index.html": "/Aadithyakp/stuffwadrobe/tree/main/Frontend/index.html",
-    "main.795c226c.js.map": "/Aadithyakp/stuffwadrobe/tree/main/Frontend/static/js/main.795c226c.js.map"
+    "main.js": "/stuffwadrobe/static/js/main.46dd1ddd.js",
+    "index.html": "/stuffwadrobe/index.html",
+    "main.46dd1ddd.js.map": "/stuffwadrobe/static/js/main.46dd1ddd.js.map"
   },
   "entrypoints": [
-    "static/js/main.795c226c.js"
+    "static/js/main.46dd1ddd.js"
   ]
 }
