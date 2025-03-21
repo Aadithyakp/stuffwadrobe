@@ -131,7 +131,7 @@ const Product = () => {
   useEffect(() => {
     const getProduct = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/products/find/"+ id);
+        const res = await axios.get("https://stuffwadrobe.onrender.com/api/products/find/"+ id);
         setProduct(res.data);
       } catch {}
     };
